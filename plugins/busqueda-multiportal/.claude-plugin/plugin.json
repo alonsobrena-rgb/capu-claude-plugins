@@ -1,0 +1,8 @@
+{
+  "name": "busqueda-multiportal",
+  "displayName": "Búsqueda multiportal de inmuebles",
+  "description": "Abre Tokko, RE/MAX, YoBusco y Babilonia en Chrome con los filtros del requerimiento de un cliente ya puestos y verificados, para que el agente revise los avisos uno por uno.",
+  "author": {
+    "name": "Evo Media"
+  }
+}

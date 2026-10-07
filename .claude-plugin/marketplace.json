@@ -1,0 +1,14 @@
+{
+  "name": "capu-inmobiliaria",
+  "description": "Herramientas de Claude para agentes inmobiliarios de Capu (Lima)",
+  "owner": {
+    "name": "Evo Media"
+  },
+  "plugins": [
+    {
+      "name": "busqueda-multiportal",
+      "source": "./plugins/busqueda-multiportal",
+      "description": "Abre Tokko, RE/MAX, YoBusco y Babilonia en Chrome con los filtros del cliente ya puestos y verificados."
+    }
+  ]
+}
