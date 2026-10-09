@@ -1,0 +1,8 @@
+{
+  "name": "publicar-grupos-facebook",
+  "displayName": "Publicar propiedades en grupos de Facebook",
+  "description": "Publica propiedades de Umbral (texto con plantilla + primeras 10 fotos) en grupos de Facebook desde Chrome, por lotes y gastando lo mínimo del plan.",
+  "author": {
+    "name": "Evo Media"
+  }
+}

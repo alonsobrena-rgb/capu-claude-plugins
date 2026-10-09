@@ -9,6 +9,11 @@
       "name": "busqueda-multiportal",
       "source": "./plugins/busqueda-multiportal",
       "description": "Abre Tokko, RE/MAX, YoBusco y Babilonia en Chrome con los filtros del cliente ya puestos y verificados."
+    },
+    {
+      "name": "publicar-grupos-facebook",
+      "source": "./plugins/publicar-grupos-facebook",
+      "description": "Publica propiedades de Umbral (texto + primeras 10 fotos) en grupos de Facebook desde Chrome, por lotes y con poco gasto."
     }
   ]
 }

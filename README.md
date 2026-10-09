@@ -1,6 +1,6 @@
 # Capu Inmobiliaria · Plugins para Claude
 
-Herramientas de Claude para los agentes de Capu.
+Herramientas de Claude para los agentes de Capu: búsqueda multiportal y publicación en grupos de Facebook.
 
 ## Búsqueda multiportal de inmuebles
 
@@ -35,6 +35,36 @@ Abre un chat nuevo, pega el requerimiento del cliente tal como te llegó y escri
 
 Si te avisan que hay cambios y no los ves, quita el marketplace **capu-inmobiliaria** en **Customize > Plugins** y vuelve a agregarlo con los pasos de instalación.
 En Claude Code: `/plugin marketplace update capu-inmobiliaria`.
+
+## Publicar propiedades en grupos de Facebook
+
+Le pasas a Claude los links de las propiedades y de los grupos. Claude saca los datos de Umbral, arma el texto con una plantilla fija y publica en cada grupo desde tu Chrome con las **primeras 10 fotos** de la ficha. Antes de publicar te muestra la lista del lote y espera tu "sí".
+
+### Qué necesitas
+
+- Una cuenta de Claude con plan pago (Pro o superior), con el conector de **Umbral** activado.
+- La extensión **Claude in Chrome** en el Chrome de tu computadora, con la misma cuenta de Claude.
+- Tu sesión de **Facebook** abierta en ese Chrome, ya como miembro de los grupos.
+
+### Instalación
+
+Igual que la búsqueda multiportal, pero en la lista instala **publicar-grupos-facebook**.
+En Claude Code: `/plugin install publicar-grupos-facebook@capu-inmobiliaria`.
+
+### Cómo usarlo
+
+Abre **un chat nuevo por cada lote** (así gasta mucho menos) y escribe, por ejemplo:
+
+> publica en estos grupos: [link grupo 1], [link grupo 2], [link grupo 3]
+> propiedades: [link propiedad A], [link propiedad B]
+
+Claude reparte las propiedades entre los grupos, te muestra la lista y, cuando confirmas, publica.
+
+**Mientras corre el lote:**
+- No uses Ctrl+C en esa computadora. Las fotos pasan por el portapapeles.
+- No minimices Chrome.
+
+**Ritmo recomendado:** hasta 3 publicaciones por grupo al día, repartidas en la mañana, la tarde y la noche, y la misma propiedad en el mismo grupo no más de una vez por semana. Más que eso hace que Facebook restrinja la cuenta o que los admins te saquen del grupo.
 
 ## Sin Claude in Chrome
 
